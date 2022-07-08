@@ -1,0 +1,24 @@
+grid
+
+=> data structure
+1. matrix
+
+=> algorithm
+
+1. recursive approach to visit the matrix
+2. using memoization and tabulation to optimize the complexity
+
+=> problems 
+
+=>fixed starting point and fixed ending point
+1. unique paths 2 - leetcode - 63
+2. unique paths 1 - leetcode - 62
+3. maximux/minimum path sum - leetcode - 64
+
+=> fixed starting point and variable ending point 
+
+1. triangle as grid - coding ninja - https://bit.ly/3K1cvqv
+
+=> variable starting point and variable end point
+
+1. minimum/maximum path sum in the matrix - coding ninja - https://bit.ly/3F436dK

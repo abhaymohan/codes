@@ -1,0 +1,31 @@
+graphs
+
+=> theory
+
+1. graph use case
+2. directed cyclic graph
+3. directed acyclic graph
+4. undirected cyclic graph
+5. undirected acyclic graph
+6. simple path / path
+7. path / walk
+8. minimum spanning tree
+9. connected and dis-connected graph
+10. components of a graph
+
+=> implementation
+
+1. adjency list 
+2. adjency matrix
+
+=> algorithms
+
+1. dfs traversal of graph connected and disconnected
+2. bfs traversal of graph connected and disconnected
+3. topological sort
+4. bipartite graph
+5. 
+
+=> problems 
+1. count number of components 
+2. 

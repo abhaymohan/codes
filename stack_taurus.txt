@@ -1,0 +1,23 @@
+STACK
+
+
+=> implementation
+1. implement stack using arrays
+2. implement stack using queue
+
+=> algorithm
+1. next/nearest greater element on right or left (leetcode - 503)
+2. next/nearest smaller element on right or left
+3. minimum element in stack with extra space
+4. minimum element in stack with constant space
+5. sort an stack
+
+=> problems
+1. stock span problem (gfg and leetcode - 901 little bit difference in both platfoms)
+2. maximum area histogram
+3. maximum area rectangle in binary matrix
+4. rain water trapping or harvesting
+5. celebrity problem
+6. daily temperatures - leetcode 739
+7. next greater element - leetcode 496 (must do)
+8. maximum square - leetcode 221

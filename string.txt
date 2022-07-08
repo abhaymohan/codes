@@ -1,0 +1,44 @@
+string 
+
+=> important c++ method
+ 
+1. to make a string uppercase
+{
+string a = "abhay";
+transform(a.begin(),a.end(),a.begin(),::toupper);
+}
+// converts whole string to uppercase
+
+2. to make a string in lowercase
+{
+string sl = "MOHAN";
+transform(sl.begin(), sl.end(), sl.begin(), ::tolower);
+}
+// converts whole string to lowercase
+
+transform()  = <algorithm>
+::toupper or ::tolower = <ctype.h> // header file to work on characters
+must be used with ::
+
+3. islower() , isupper() , tolower(), toupper()
+
+islower() -> return 0 or 1 if char is in lowercase or not
+isupper() -> return 0 or 1 if char is in uppercase or not
+isdigit() -> return 0 or 1 if char is digit or not
+toupper() -> converts lowercase character to uppercase
+tolower() -> converts uppercase character to lowercase
+isalpha() -> returns 0 or 1 if char is alphabet or not
+isalnum() -> return 0 or 1 if char is aphabet or number or not
+
+these all functions are available in <string> header file so we dont have to add <ctype.h> header file.
+
+4. 
+
+
+==> algorithms
+
+
+==> problems
+
+1. partition labels - leetcode - 763
+2. 

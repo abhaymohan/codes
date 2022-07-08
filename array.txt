@@ -1,0 +1,81 @@
+array
+
+* primitive datatype
+
+=> theory
+
+1. normal c++ array = int arr[size];
+2. vector , dynamic arrays
+3. matrix (array of array, array of vector, vector of vector)
+4. caching and fast element access
+5. [] index operator/square bracket operator
+
+=> data structure
+
+1. normal array
+1d-array = int arr[size] = {0};
+2d array = int arr[][] = {{0}};
+3d array = int arr[][][] = {{{0}}};
+
+2. array class
+
+1. #include<array>
+2. array<int,size_array> arr = {1,2,3,4,....}  // example = array<int,2> arr = {1,2};
+
+3. vector class
+
+1. #include<vector>
+2. 1d vector 
+a. vector<int> v(vector_size,initial value); 
+b. vector<int> v = {1,2,3,...};
+c. vector<int>  v(vector_size); // in this vector will be initialized with default value
+default value ->  int = 0 , char = '\0' null character , bool = false
+3. 2d vector
+a. vector<vector<int>> v;
+b. vector<vector<int>> v(rows,vector<int>(col,value));
+
+4. array and vector together
+
+1. array of vector 
+vector<int> array[];
+
+5. circular array - array elements are accessed using modulus(%).
+
+6. subset , subarray and subsequence 
+
+=> algorithm
+
+1. stack implemented using array
+2. queue implemented using array
+3. reverse an array
+4. sort an array
+5. traverse an array
+6. search in array
+a. linear search
+b. binary search
+7. graph adjency matrix implementation
+8. graph adjency list implementation
+9. prefix sum
+
+
+
+=> problems
+
+1. Problems related to subset/ subsequence
+
+algorithm => pick and not pick
+
+problems
+1. subset sum equal to k = coding ninja - https://bit.ly/3ukNmRZ    // dynamic programming
+2. subsets - leetcode - 78 // return all possible subsets or power set // backtracking ,recursion
+3. subsets 2 - leetcode - 90 // return power set of array containing duplicates // 
+4. 
+
+
+
+
+====> algorithms and questions
+
+1. prefix sum
+a. range sum query - immutable - leetcode - 303
+b. range sum query 2d immutable - leetcode - 304
